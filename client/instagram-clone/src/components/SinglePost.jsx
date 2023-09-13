@@ -160,7 +160,7 @@ export const SinglePost = ({ post }) => {
           <img
             className="w-full h-64 object-fit"
             src={
-              post?.photo
+              post.photo
                 ? `http://localhost:5500/images/${post?.photo}`
                 : "https://placewaifu.com/image/200"
             }
