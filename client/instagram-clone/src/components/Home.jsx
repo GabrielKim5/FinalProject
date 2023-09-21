@@ -7,8 +7,11 @@ const Home = () => {
 	return (
 		<>
 			<Layout />
-			<ModalPost />
-			<Post />
+			{/* <ModalPost /> */}
+
+			<div className="flex flex-wrap flex-cols-1 gap-4 place-content-center ">
+				<Post />
+			</div>
 		</>
 	);
 };
